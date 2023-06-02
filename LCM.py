@@ -1,10 +1,11 @@
-a,b=map(int,input().split())
-if(a>b):
-    min1=a
+n,m=map(int,input().split())
+if(n>m):
+    t=n
 else:
-    min1=b
-while(1):
-    if(min1%a==0 and min1%b==0):
-        print(min1)
+    t=m
+i=1
+while(i!=0):
+    if((i*t)%m==0 and (i*t)%n==0):
+        print(i*t)
         break
-    min1=min1+1
+    i+=1
