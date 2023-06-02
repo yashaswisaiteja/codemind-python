@@ -1,0 +1,12 @@
+n=int(input())
+t=n
+n=abs(n)
+r=0
+while(n):
+    d=n%10
+    r=r*10+d
+    n//=10
+if(t<0):
+    print("-%d"%r)
+else:
+    print(r)
