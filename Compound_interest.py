@@ -1,3 +1,3 @@
-a,b,c=map(float,input().split())
-ci=a*pow((1+b/100),c)
+p,r,t=map(float,input().split())
+ci=p*pow((1+r/100),t)
 print("%0.2f"%ci)
